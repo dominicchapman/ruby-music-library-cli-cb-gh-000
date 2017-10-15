@@ -2,7 +2,7 @@
 class MusicLibraryController
 
   def initialize(filepath)
-    @path = filepath
+    MusicImporter.new(filepath).import
   end
 
 end
