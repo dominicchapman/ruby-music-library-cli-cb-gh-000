@@ -15,10 +15,10 @@ class Song
     @@all.clear
   end
 
-  # def save
-  #   @@all << self
-  # end
-  # 
+  def save
+    @@all << self
+  end
+  
   # def self.create
   #   song = self.new
   #   save
