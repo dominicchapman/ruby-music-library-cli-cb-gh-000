@@ -39,7 +39,7 @@ class Song
   end
 
   def self.find_by_name(song)
-    @@all.find(song.name)
+    @@all.detect(song.name)
   end
 
 end
