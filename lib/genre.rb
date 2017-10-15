@@ -35,6 +35,7 @@ class Genre
     songs.each do |song|
       aritsts << song.artist unless artists.include?(song.artist)
     end
+    artists
   end
 
 end
