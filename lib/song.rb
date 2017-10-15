@@ -27,4 +27,8 @@ class Song
     song
   end
 
+  def artist=
+    
+  end
+
 end
