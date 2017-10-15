@@ -15,13 +15,13 @@ class Song
     @@all.clear
   end
 
-  def save
-    @@all << self
-  end
-
-  def self.create
-    song = self.new
-    save
-  end
+  # def save
+  #   @@all << self
+  # end
+  # 
+  # def self.create
+  #   song = self.new
+  #   save
+  # end
 
 end
