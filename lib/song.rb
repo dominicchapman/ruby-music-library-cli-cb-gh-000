@@ -27,7 +27,7 @@ class Song
     song
   end
 
-  def artist=
+  def artist=(song)
     
   end
 
