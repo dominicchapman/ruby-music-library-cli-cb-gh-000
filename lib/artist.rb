@@ -1,6 +1,6 @@
 class Artist
 
-  extend Module::Findable
+  extend Concerns::Findable
 
   @@all = []
   attr_accessor :name
