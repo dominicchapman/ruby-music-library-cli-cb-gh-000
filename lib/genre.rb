@@ -38,5 +38,4 @@ class Genre
     artists
   end
 
-
 end
